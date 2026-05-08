@@ -88,3 +88,14 @@ export type ChildView = {
   grades: GradeRow[];
   notices: string[];
 };
+export type TourBooking = {
+  id: string;
+  parent_name: string;
+  phone: string;
+  email?: string;
+  child_class_or_age?: string;
+  preferred_date: string;
+  message?: string;
+  status: 'New' | 'Contacted' | 'Completed' | 'Cancelled';
+  created_at?: string;
+};

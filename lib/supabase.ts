@@ -9,6 +9,7 @@ import type {
   ClassRecord,
   GradeRow,
   StudentRecord,
+  TourBooking
 } from './types';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
@@ -608,4 +609,25 @@ export async function updateStudentAttendance(
   }
 
   return true;
+}
+export async function createTourBooking(
+  payload: Omit<TourBooking, 'id' | 'status'>
+): Promise<TourBooking | null> {
+  const { error } = await supabase.from('tour_bookings').insert([
+    {
+      ...payload,
+      status: 'New',
+    },
+  ]);
+
+  if (error) {
+    console.error('Error creating tour booking:', error.message);
+    return null;
+  }
+
+  return {
+    id: '',
+    status: 'New',
+    ...payload,
+  } as TourBooking;
 }
