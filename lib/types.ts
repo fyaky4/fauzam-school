@@ -1,13 +1,13 @@
 export type PageKey =
   | 'home'
   | 'about'
+  | 'programs'
   | 'admissions'
   | 'portal'
   | 'admin'
   | 'teacher'
   | 'contact'
-  | 'gallery'
-  | 'programs';
+  | 'gallery';
 
 export type Role = 'parent' | 'admin' | 'teacher' | null;
 
