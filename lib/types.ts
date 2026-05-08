@@ -6,7 +6,8 @@ export type PageKey =
   | 'admin'
   | 'teacher'
   | 'contact'
-  | 'gallery';
+  | 'gallery'
+  | 'programs';
 
 export type Role = 'parent' | 'admin' | 'teacher' | null;
 
