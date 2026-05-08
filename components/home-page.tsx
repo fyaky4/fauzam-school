@@ -35,7 +35,7 @@ export default function HomePage({ setPage }: Props) {
           </button>
 
           <button
-            onClick={() => setPage('about')}
+            onClick={() => setPage('programs')}
             className="rounded-2xl border border-white/30 bg-white/10 px-6 py-3 font-semibold text-white backdrop-blur hover:bg-white/20"
           >
             Explore Programs

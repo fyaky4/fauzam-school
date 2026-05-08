@@ -14,12 +14,13 @@ export const schoolTagline = 'Empowering Young Minds for a Brighter Future';
 export const navItems: { key: PageKey; label: string }[] = [
   { key: 'home', label: 'Home' },
   { key: 'about', label: 'About' },
+  { key: 'programs', label: 'Programs' },
   { key: 'admissions', label: 'Admissions' },
+  { key: 'gallery', label: 'Gallery' },
   { key: 'portal', label: 'Portal' },
   { key: 'admin', label: 'Admin' },
   { key: 'teacher', label: 'Teacher' },
   { key: 'contact', label: 'Contact' },
-  { key: 'gallery', label: 'Gallery' },
 ];
 
 export const timetable = [

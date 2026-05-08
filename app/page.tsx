@@ -11,6 +11,7 @@ import ContactPage from '@/components/contact-page';
 import TeacherWorkspace from '@/components/teacher-workspace';
 import AdminPage from '@/components/admin-page';
 import GalleryPage from '@/components/gallery-page';
+import ProgramsPage from '@/components/programs-page';
 
 import type {
   AnnouncementItem,
@@ -171,6 +172,7 @@ export default function Page() {
 
       {page === 'contact' && <ContactPage />}
       {page === 'gallery' && <GalleryPage />}
+      {page === 'programs' && <ProgramsPage setPage={setPage} />}
     </div>
   );
 }
