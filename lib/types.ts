@@ -5,7 +5,8 @@ export type PageKey =
   | 'portal'
   | 'admin'
   | 'teacher'
-  | 'contact';
+  | 'contact'
+  | 'gallery';
 
 export type Role = 'parent' | 'admin' | 'teacher' | null;
 
