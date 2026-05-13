@@ -349,7 +349,7 @@ export default function AdmissionsPage({ setApplications }: Props) {
                     })
                   }
                   className="w-full rounded-2xl border border-slate-200 px-4 py-3"
-                  placeholder="Emergency Contact Name"
+                  placeholder="Name"
                   required
                 />
 
@@ -363,7 +363,7 @@ export default function AdmissionsPage({ setApplications }: Props) {
                     })
                   }
                   className="w-full rounded-2xl border border-slate-200 px-4 py-3"
-                  placeholder="Emergency Contact Phone"
+                  placeholder="Phone Number"
                   required
                 />
 
