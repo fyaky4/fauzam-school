@@ -631,3 +631,25 @@ export async function createTourBooking(
     ...payload,
   } as TourBooking;
 }
+export async function uploadAdmissionDocument(
+  file: File,
+  folderName: string
+): Promise<string | null> {
+  const safeFileName = file.name.replaceAll(' ', '-').toLowerCase();
+  const filePath = `${folderName}/${Date.now()}-${safeFileName}`;
+
+  const { error } = await supabase.storage
+    .from('admission-documents')
+    .upload(filePath, file);
+
+  if (error) {
+    console.error('Error uploading admission document:', error.message);
+    return null;
+  }
+
+  const { data } = supabase.storage
+    .from('admission-documents')
+    .getPublicUrl(filePath);
+
+  return data.publicUrl;
+}

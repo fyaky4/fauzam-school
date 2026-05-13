@@ -24,6 +24,7 @@ export type Profile = {
 
 export type ApplicationItem = {
   id: string;
+
   parent_name: string;
   student_name: string;
   email: string;
@@ -33,6 +34,25 @@ export type ApplicationItem = {
   notes?: string;
   parent_user_id?: string | null;
   created_at?: string;
+
+  date_of_birth?: string;
+  gender?: string;
+  previous_school?: string;
+  medical_info?: string;
+
+  phone?: string;
+  whatsapp?: string;
+  address?: string;
+  relationship_to_child?: string;
+
+  emergency_contact_name?: string;
+  emergency_contact_phone?: string;
+  emergency_contact_relationship?: string;
+
+  student_photo_url?: string;
+  birth_certificate_url?: string;
+  previous_report_url?: string;
+  medical_record_url?: string;
 };
 
 export type StudentRecord = {
