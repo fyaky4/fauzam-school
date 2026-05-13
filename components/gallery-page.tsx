@@ -20,7 +20,7 @@ export default function GalleryPage() {
     <main className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
       <h1 className="text-3xl font-bold text-slate-900">Gallery</h1>
       <p className="mt-2 text-slate-600">
-        A glimpse into life at Fauzam International School.
+        A glimpse into life at Fauzam International Academy.
       </p>
 
       {/* Grid */}

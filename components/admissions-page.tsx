@@ -62,7 +62,7 @@ export default function AdmissionsPage({ setApplications }: Props) {
       <section className="rounded-3xl bg-gradient-to-r from-purple-800 via-violet-700 to-fuchsia-600 p-8 text-white shadow-xl lg:p-12">
         <h1 className="text-3xl font-bold lg:text-4xl">Admissions</h1>
         <p className="mt-4 max-w-3xl text-sm leading-7 text-purple-100 lg:text-base">
-          Begin your child’s journey with Fauzam International School.
+          Begin your child’s journey with Fauzam International Academy.
         </p>
       </section>
 

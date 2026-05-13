@@ -9,10 +9,10 @@ export default function AboutPage() {
 
       {/* HERO / INTRO */}
       <section className="rounded-3xl bg-gradient-to-r from-purple-800 via-violet-700 to-fuchsia-600 p-8 text-white shadow-xl lg:p-12">
-        <h1 className="text-4xl font-bold lg:text-5xl">About Fauzam International School</h1>
+        <h1 className="text-4xl font-bold lg:text-5xl">About Fauzam International Academy</h1>
 
         <p className="mt-6 max-w-3xl text-lg text-purple-100 leading-8">
-          Fauzam International School is a forward-thinking institution in Kano, Nigeria,
+          Fauzam International Academy is a forward-thinking institution in Kano, Nigeria,
           committed to raising academically strong, morally sound, and future-ready learners.
           We combine structured education with practical skills and character development.
         </p>
@@ -27,7 +27,7 @@ export default function AboutPage() {
 
           <CardContent className="space-y-5 leading-7 text-slate-700">
             <p>
-              Fauzam International School provides a nurturing and structured learning environment
+              Fauzam International Academy provides a nurturing and structured learning environment
               where children develop strong academic foundations alongside essential life skills.
             </p>
 

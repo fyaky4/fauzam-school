@@ -8,7 +8,7 @@ import type {
   StudentRecord,
 } from './types';
 
-export const schoolName = 'Fauzam International School';
+export const schoolName = 'Fauzam International Academy';
 export const schoolTagline = 'Empowering Young Minds for a Brighter Future';
 
 export const navItems: { key: PageKey; label: string }[] = [

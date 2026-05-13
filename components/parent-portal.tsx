@@ -42,7 +42,7 @@ export default function ParentPortal() {
     const doc = new jsPDF();
 
     doc.setFontSize(18);
-    doc.text('Fauzam International School', 20, 20);
+    doc.text('Fauzam International Academy', 20, 20);
 
     doc.setFontSize(11);
     doc.text('Student Report Card', 20, 30);

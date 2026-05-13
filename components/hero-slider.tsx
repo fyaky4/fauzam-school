@@ -44,7 +44,7 @@ export default function HeroSlider() {
       {/* text overlay */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
         <h1 className="text-3xl font-bold lg:text-5xl">
-          Fauzam International School
+          Fauzam International Academy
         </h1>
         <p className="mt-4 max-w-2xl text-sm lg:text-lg">
           Empowering young minds for a brighter future through excellence,

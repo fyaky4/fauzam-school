@@ -21,7 +21,7 @@ export default function HomePage({ setPage }: Props) {
         </h1>
 
         <p className="mt-4 max-w-2xl text-sm leading-7 text-purple-100 lg:text-lg">
-          Fauzam International School provides a nurturing environment where
+          Fauzam International Academy provides a nurturing environment where
           children develop strong academic skills, character, creativity, and
           confidence to thrive in a changing world.
         </p>
